@@ -1,4 +1,11 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
 # Introduction to R
+
 ## Basic Commands
 
 ```{r}
@@ -10,9 +17,11 @@ x
 y=c(1,4,3)
 y
 ```
+
 ```{r}
 length(x)
 ```
+
 ```{r}
 length(y)
 ```
@@ -24,6 +33,7 @@ x+y
 ```{r}
 ls()
 ```
+
 ```{r}
 rm(x,y)
 ```
@@ -65,6 +75,7 @@ x^2
 x=rnorm(50)
 x
 ```
+
 ```{r}
 y=x+rnorm(50, mean=50, sd=1)
 y
@@ -88,16 +99,18 @@ y
 ```{r}
 mean(y)
 ```
+
 ```{r}
 var(y)
 ```
+
 ```{r}
 sqrt(var(y))
 ```
+
 ```{r}
 sd(y)
 ```
-
 
 ## Graphics
 
@@ -249,6 +262,7 @@ names(Auto)
 ```{r}
 plot(cylinders,mpg)
 ```
+
 ```{r}
 plot(Auto$cylinders,Auto$mpg)
 ```
@@ -320,21 +334,6 @@ indentify(horsepower,mpg,name)
 summary(Auto)
 ```
 
-
 ```{r}
 summary(mpg)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
